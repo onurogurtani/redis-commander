@@ -9,7 +9,7 @@ metadata:
 spec:
   ports:
     - port: 8081
-      targetPort: 208081
+      targetPort: 18081
       nodePort: 32022
       name: redis-commander
   selector:
