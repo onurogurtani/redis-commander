@@ -9,9 +9,8 @@ metadata:
 spec:
   ports:
     - port: 6379
-      targetPort: 16379
+      targetPort: 6379
       nodePort: 32021
-      name: redis
   selector:
     app: redis
     tier: backend
